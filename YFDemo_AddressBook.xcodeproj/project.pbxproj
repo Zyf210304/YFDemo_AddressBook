@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18188BA4208580CC00383714 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188BA3208580CC00383714 /* AppDelegate.m */; };
 		18188BA7208580CC00383714 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188BA6208580CC00383714 /* ViewController.m */; };
 		18188BAA208580CC00383714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18188BA8208580CC00383714 /* Main.storyboard */; };
 		18188BAC208580CC00383714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18188BAB208580CC00383714 /* Assets.xcassets */; };
 		18188BAF208580CC00383714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18188BAD208580CC00383714 /* LaunchScreen.storyboard */; };
 		18188BB2208580CC00383714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188BB1208580CC00383714 /* main.m */; };
+		18188BBC2085857D00383714 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188BBB2085857D00383714 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18188B9F208580CC00383714 /* YFDemo_AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFDemo_AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18188BA2208580CC00383714 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		18188BA3208580CC00383714 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18188BA5208580CC00383714 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18188BA6208580CC00383714 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18188BA9208580CC00383714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		18188BAE208580CC00383714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18188BB0208580CC00383714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18188BB1208580CC00383714 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18188BBB2085857D00383714 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				18188BA2208580CC00383714 /* AppDelegate.h */,
-				18188BA3208580CC00383714 /* AppDelegate.m */,
+				18188BBB2085857D00383714 /* AppDelegate.m */,
 				18188BA5208580CC00383714 /* ViewController.h */,
 				18188BA6208580CC00383714 /* ViewController.m */,
 				18188BA8208580CC00383714 /* Main.storyboard */,
@@ -97,6 +97,7 @@
 		18188B97208580CC00383714 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YF;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = yafei;
 				TargetAttributes = {
@@ -144,7 +145,7 @@
 			files = (
 				18188BA7208580CC00383714 /* ViewController.m in Sources */,
 				18188BB2208580CC00383714 /* main.m in Sources */,
-				18188BA4208580CC00383714 /* AppDelegate.m in Sources */,
+				18188BBC2085857D00383714 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +282,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K36LPBJ5XL;
 				INFOPLIST_FILE = YFDemo_AddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adpanshi.renzheng.YFDemo-AddressBook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K36LPBJ5XL;
 				INFOPLIST_FILE = YFDemo_AddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adpanshi.renzheng.YFDemo-AddressBook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
